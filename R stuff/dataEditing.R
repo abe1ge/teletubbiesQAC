@@ -29,9 +29,6 @@ maxnum <- max(train$time)
 numPlace <- count(dist(train$place_id))
 
 
-diet1 <- data.frame(ChickWeight[ChickWeight$Diet == 1,])
-
-
 newTrain <- data.frame(train[train$accuracy < 200,])
 
 write.csv(newTrain, "newTrain2.csv", row.names=FALSE, col.names = FALSE)
