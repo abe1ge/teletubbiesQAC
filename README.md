@@ -1,2 +1,2 @@
 # teletubbiesQAC
-QA cinima By teleltubbies
+QA cinema By Teletubbies
