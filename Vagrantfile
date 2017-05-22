@@ -77,7 +77,7 @@ Vagrant.configure("2") do |config|
       # v.name = "vm-cluster-agent1"
       # v.customize ["modifyvm", :id, "--memory", "8192"]
     # end
-    # agent1.vm.network :public_network, ip: "192.168.1.94"
+    # agent1.vm.network :public_network, ip: "192.168.1.101"
     # agent1.vm.hostname = "vm-cluster-agent1"
     # agent1.vm.provision :shell, :inline => $hosts_script
     # agent1.vm.provision :hostmanager
@@ -89,7 +89,7 @@ Vagrant.configure("2") do |config|
       # v.name = "vm-cluster-agent2"
       # v.customize ["modifyvm", :id, "--memory", "8192"]
     # end
-    # agent2.vm.network :public_network, ip: "192.168.1.95"
+    # agent2.vm.network :public_network, ip: "192.168.1.102"
     # agent2.vm.hostname = "vm-cluster-agent2"
 	# agent2.vm.provision :hostmanager
     # agent2.vm.provision :shell, :inline => $hosts_script
@@ -101,7 +101,7 @@ Vagrant.configure("2") do |config|
       # v.name = "vm-cluster-agent3"
       # v.customize ["modifyvm", :id, "--memory", "8192"]
     # end
-    # agent3.vm.network :public_network, ip: "192.168.1.96"
+    # agent3.vm.network :public_network, ip: "192.168.1.103"
     # agent3.vm.hostname = "vm-cluster-agent3"
 	# agent3.vm.provision :hostmanager
     # agent3.vm.provision :shell, :inline => $hosts_script
@@ -113,7 +113,7 @@ Vagrant.configure("2") do |config|
      # v.name = "vm-cluster-agent4"
      # v.customize ["modifyvm", :id, "--memory", "8192"]
    # end
-   # agent4.vm.network :public_network, ip: "192.168.1.97"
+   # agent4.vm.network :public_network, ip: "192.168.1.104"
    # agent4.vm.hostname = "vm-cluster-agent4"
    # agent4.vm.provision :hostmanager
    # agent4.vm.provision :shell, :inline => $hosts_script
@@ -125,7 +125,7 @@ Vagrant.configure("2") do |config|
       # v.name = "vm-cluster-agent5"
       # v.customize ["modifyvm", :id, "--memory", "8192"]
     # end
-    # agent5.vm.network :public_network, ip: "192.168.1.98"
+    # agent5.vm.network :public_network, ip: "192.168.1.105"
     # agent5.vm.hostname = "vm-cluster-agent5"
 	# agent5.vm.provision :hostmanager
     # agent5.vm.provision :shell, :inline => $hosts_script
